@@ -88,12 +88,13 @@ export default function SignUp() {
                     <p className="text-sm text-gray-500 mt-2">
                         Already have an account? <Link href="/signin" className="text-blue-500 hover:underline">Sign In</Link>
                     </p>
+                </form>
 
                     {/* horizontal line */}
-                    <hr className="text-gray-300" />
+                    <hr className="text-gray-300 w-full my-4" />
 
                     {/* google */}
-                    < button type="button" className="bg-gray-200 hover:bg-gray-300 font-medium text-gray-700 py-2 px-4 cursor-pointer mt-2">
+                    < button type="button" className="mb-4 bg-gray-200 w-full hover:bg-gray-300 font-medium text-gray-700 py-2 px-4 cursor-pointer mt-2">
                         <Link href="#">Continue with Google</Link>
                     </button>
 
@@ -101,7 +102,6 @@ export default function SignUp() {
                     <p className="text-sm text-gray-500 mt-2">
                         By signing up, you agree to our <Link href="/terms" className="text-blue-500 hover:underline">Terms of Service</Link> and <Link href="/privacy" className="text-blue-500 hover:underline">Privacy Policy</Link>.
                     </p>
-                </form>
             </div>
         </main>
     )

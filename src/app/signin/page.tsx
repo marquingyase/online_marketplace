@@ -21,7 +21,6 @@ export default function SignUp() {
 
                 {/* form */}
                 <form className="flex flex-col w-full gap-4">
-
                     {/* email */}
                     <div className="flex flex-col">
                         <label htmlFor="email" className="text-sm font-medium mb-1">Email
@@ -59,15 +58,15 @@ export default function SignUp() {
                     <p className="text-sm text-gray-500 mt-2">
                         Don&apos;t have an account? <Link href="/signup" className="text-blue-500 hover:underline">Sign Up</Link>
                     </p>
+                </form>
 
                     {/* horizontal line */}
-                    <hr className="text-gray-300" />
+                    <hr className="text-gray-300 w-full my-4" />
 
                     {/* google */}
-                    < button type="button" className="bg-gray-200 hover:bg-gray-300 font-medium text-gray-700 py-2 px-4 cursor-pointer mt-2">
+                    < button type="button" className="bg-gray-200 w-full hover:bg-gray-300 font-medium text-gray-700 py-2 px-4 cursor-pointer mt-2">
                         <Link href="#">Continue with Google</Link>
                     </button>
-                </form>
             </div>
         </main>
     )
