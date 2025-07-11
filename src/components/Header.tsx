@@ -64,6 +64,7 @@ export default function Header() {
                                         Sign In
                                     </Link>
                                 </MenuItem>
+                                <hr className="border-t border-gray-300"/>
                                 <MenuItem>
                                     <Link
                                         href="/signup"
