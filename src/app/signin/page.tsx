@@ -14,27 +14,13 @@ export default function SignUp() {
 
                     {/* heading */}
                     <div className="flex flex-col items-start">
-                        <h2 className="text-2xl font-bold">Create Account</h2>
-                        <p className="text-gray-500 text-sm">Sign up to get started with us</p>
+                        <h2 className="text-2xl font-bold">Welcome Back</h2>
+                        <p className="text-gray-500 text-sm">Continue from where you left</p>
                     </div>
                 </div>
 
                 {/* form */}
                 <form className="flex flex-col w-full gap-4">
-                    {/* username */}
-                    <div className="flex flex-col">
-                        <label htmlFor="username" className="text-sm font-medium mb-1">Username
-                            <span className="text-red-500">*</span>
-                        </label>
-                        <input
-                            type="text"
-                            placeholder="Seth Gyan"
-                            id="username"
-                            name="username"
-                            required
-                            className="px-4 py-2 border border-gray-300 focus:border-blue-500 focus:outline-none w-full"
-                        />
-                    </div>
 
                     {/* email */}
                     <div className="flex flex-col">
@@ -66,27 +52,12 @@ export default function SignUp() {
                         />
                     </div>
 
-                    {/* confirm password */}
-                    <div className="flex flex-col">
-                        <label htmlFor="confirmPassword" className="text-sm font-medium mb-1">Confirm Password
-                            <span className="text-red-500">*</span>
-                        </label>
-                        <input
-                            type="password"
-                            placeholder="**********"
-                            id="confirmPassword"
-                            name="confirmPassword"
-                            required
-                            className="px-4 py-2 border border-gray-300 focus:border-blue-500 focus:outline-none w-full"
-                        />
-                    </div>
-
                     {/* submit */}
-                    <button type="submit" className="bg-blue-500 hover:bg-blue-600 font-medium text-white py-2 px-4 cursor-pointer">Sign Up</button>
+                    <button type="submit" className="bg-blue-500 hover:bg-blue-600 font-medium text-white py-2 px-4 cursor-pointer">Sign In</button>
 
                     {/* signin */}
                     <p className="text-sm text-gray-500 mt-2">
-                        Already have an account? <Link href="/signin" className="text-blue-500 hover:underline">Sign In</Link>
+                        Don&apos;t have an account? <Link href="/signup" className="text-blue-500 hover:underline">Sign Up</Link>
                     </p>
 
                     {/* horizontal line */}
@@ -96,11 +67,6 @@ export default function SignUp() {
                     < button type="button" className="bg-gray-200 hover:bg-gray-300 font-medium text-gray-700 py-2 px-4 cursor-pointer mt-2">
                         <Link href="#">Continue with Google</Link>
                     </button>
-
-                    {/* terms and privacy */}
-                    <p className="text-sm text-gray-500 mt-2">
-                        By signing up, you agree to our <Link href="/terms" className="text-blue-500 hover:underline">Terms of Service</Link> and <Link href="/privacy" className="text-blue-500 hover:underline">Privacy Policy</Link>.
-                    </p>
                 </form>
             </div>
         </main>
