@@ -6,9 +6,9 @@ export default function Footer() {
     return (
         <header className="bg-blue-950 text-white">
             <Container>
-                <div className="flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between py-12">
+                <div className="flex flex-col md:flex-row gap-8 md:gap-0 md:items-center justify-between py-12">
                     {/* logo */}
-                    <div className="flex items-center justify-center gap-4">
+                    <div className="flex items-center md:justify-center gap-4">
                         <Link href="/" className="flex items-center space-x-2">
                             <FaShoppingCart className="text-5xl text-blue-500" />
                             <div>
