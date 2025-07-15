@@ -175,7 +175,9 @@ export default function Header() {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-sm gap-6">
                         {categories.map((category) => (
                             <div key={category.name}>
+                                <Link href={category.link}>
                                 <h3 className="font-bold mb-1">{category.name}</h3>
+                                </Link>
                                 <ul>
                                     {category.items.map((item) => (
                                         <li
@@ -183,7 +185,7 @@ export default function Header() {
                                             className="flex w-fit items-center hover:text-blue-500"
                                         >
                                             <MdOutlineKeyboardArrowRight />
-                                            <Link href={item.link}>{item.name}</Link>
+                                            <Link href={`${category.link}${item.link}`}>{item.name}</Link>
                                         </li>
                                     ))}
                                 </ul>

@@ -1,211 +1,221 @@
 export const categories = [
     {
         name: "Electronics",
+        link: "/electronics",
         items: [
             {
                 name: "Smartphones",
-                link: "#"
+                link: "/smartphones"
             },
             {
                 name: "Laptops",
-                link: "#"
+                link: "/laptops"
             },
             {
                 name: "TVs & Home Theater",
-                link: "#"
+                link: "/tvs-and-home-theater"
             },
             {
                 name: "Cameras",
-                link: "#"
+                link: "/cameras"
             },
             {
                 name: "Gaming",
-                link: "#"
+                link: "/gaming"
             },
         ]
     },
     {
         name: "Fashion",
+        link: "/fashion",
         items: [
             {
-                name: "Men’s Clothing",
-                link: "#"
+                name: "Men's Clothing",
+                link: "/mens-clothing"
             },
             {
-                name: "Women’s Clothing",
-                link: "#"
+                name: "Women's Clothing",
+                link: "/womens-clothing"
             },
             {
                 name: "Footwear",
-                link: "#"
+                link: "/footwear"
             },
             {
                 name: "Accessories",
-                link: "#"
+                link: "/accessories"
             },
             {
                 name: "Jewelry",
-                link: "#"
+                link: "/jewelry"
             },
         ]
     },
     {
         name: "Home & Kitchen",
+        link: "/home-and-kitchen",
         items: [
             {
                 name: "Furniture",
-                link: "#"
+                link: "/furniture"
             },
             {
                 name: "Kitchen Appliances",
-                link: "#"
+                link: "/kitchen-appliances"
             },
             {
                 name: "Home Decor",
-                link: "#"
+                link: "/home-decor"
             },
             {
                 name: "Bedding",
-                link: "#"
+                link: "/bedding"
             },
             {
                 name: "Cookware",
-                link: "#"
+                link: "/cookware"
             },
         ]
     },
     {
         name: "Beauty & Personal Care",
+        link: "/beauty-and-personal-care",
         items: [
             {
                 name: "Skincare",
-                link: "#"
+                link: "/"
             },
             {
                 name: "Makeup",
-                link: "#"
+                link: "/make-up"
             },
             {
                 name: "Hair Care",
-                link: "#"
+                link: "/hair-care"
             },
             {
                 name: "Fragrances",
-                link: "#"
+                link: "/fragrances"
             },
             {
-                name: "Men’s Grooming",
-                link: "#"
+                name: "Men's Grooming",
+                link: "/mens-grooming"
             },
         ]
     },
     {
         name: "Groceries & Daily Needs",
+        link: "/groceries-and-daily-needs",
         items: [
             {
                 name: "Fresh Produce",
-                link: "#"
+                link: "/fresh-produce"
             },
             {
                 name: "Snacks & Beverages",
-                link: "#"
+                link: "/snacks-and-beverages"
             },
             {
                 name: "Household Essentials",
-                link: "#"
+                link: "/household-essentials"
             },
             {
                 name: "Pet Care",
-                link: "#"
+                link: "/pet-care"
             },
         ]
     },
     {
         name: "Sports & Outdoors",
+        link: "/sports-and-outdoors",
         items: [
             {
                 name: "Fitness Equipment",
-                link: "#"
+                link: "/fitness-equipment"
             },
             {
                 name: "Cycling",
-                link: "#"
+                link: "/cycling"
             },
             {
                 name: "Camping & Hiking",
-                link: "#"
+                link: "/camping-and-hiking"
             },
             {
                 name: "Team Sports",
-                link: "#"
+                link: "/team-sports"
             },
         ]
     },
     {
         name: "Books & Stationery",
+        link: "/books-and-stationery",
         items: [
             {
                 name: "Fiction",
-                link: "#"
+                link: "/fiction"
             },
             {
                 name: "Non-Fiction",
-                link: "#"
+                link: "/non-fiction"
             },
             {
                 name: "Educational",
-                link: "#"
+                link: "/educational"
             },
             {
                 name: "Office Supplies",
-                link: "#"
+                link: "/office-supplies"
             },
         ]
     },
     {
         name: "Toys & Kids",
+        link: "/toys-and-kids",
         items: [
             {
                 name: "Toys",
-                link: "#"
+                link: "/toys"
             },
             {
                 name: "Baby Care",
-                link: "#"
+                link: "baby-care"
             },
             {
-                name: "Kids’ Clothing",
-                link: "#"
+                name: "Kids Clothing",
+                link: "/kids-clothing"
             },
         ]
     },
     {
         name: "Automotive",
+        link: "/automotive",
         items: [
             {
                 name: "Car Accessories",
-                link: "#"
+                link: "/car-accessories"
             },
             {
                 name: "Tools & Maintenance",
-                link: "#"
+                link: "/tools-and-maintenance"
             },
         ]
     },
     {
         name: "Deals & Offers",
+        link: "/deals-and-offers",
         items: [
             {
                 name: "Flash Sales",
-                link: "#"
+                link: "/flash-sales"
             },
             {
                 name: "Seasonal Discounts",
-                link: "#"
+                link: "/seasonal-discounts"
             },
             {
                 name: "Coupons & Vouchers",
-                link: "#"
+                link: "/coupons-and-vouchers"
             },
         ]
     }
